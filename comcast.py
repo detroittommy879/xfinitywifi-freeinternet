@@ -1,12 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import subprocess
 import time
 import random
 
-wifid = 'testtest'
+wifid = 'testwifiadaptername'
 
-# wifid='wlxc83a35c2dd6b'
+# wifid='wlxc83a35c2dd6b'my actual adapter name
 
 mac = ':'.join(("%12x" % random.randint(0, 0xFFFFFFFFFFFF))[i:i+2] for i in range(0, 12, 2))
 
